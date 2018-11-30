@@ -13,6 +13,7 @@
 		8ECA6EC321AFC2730069034B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA6EC221AFC2730069034B /* Assets.xcassets */; };
 		8ECA6EC621AFC2730069034B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA6EC421AFC2730069034B /* LaunchScreen.storyboard */; };
 		8ECA6EC921AFC2730069034B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA6EC821AFC2730069034B /* main.m */; };
+		8ECA6ED121AFC2C80069034B /* BZSectorProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA6ED021AFC2C80069034B /* BZSectorProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8ECA6EC521AFC2730069034B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8ECA6EC721AFC2730069034B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ECA6EC821AFC2730069034B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ECA6ECF21AFC2C80069034B /* BZSectorProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BZSectorProgressView.h; sourceTree = "<group>"; };
+		8ECA6ED021AFC2C80069034B /* BZSectorProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BZSectorProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				8ECA6EBA21AFC2720069034B /* AppDelegate.m */,
 				8ECA6EBC21AFC2720069034B /* ViewController.h */,
 				8ECA6EBD21AFC2720069034B /* ViewController.m */,
+				8ECA6ECF21AFC2C80069034B /* BZSectorProgressView.h */,
+				8ECA6ED021AFC2C80069034B /* BZSectorProgressView.m */,
 				8ECA6EBF21AFC2720069034B /* Main.storyboard */,
 				8ECA6EC221AFC2730069034B /* Assets.xcassets */,
 				8ECA6EC421AFC2730069034B /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ECA6EBE21AFC2720069034B /* ViewController.m in Sources */,
+				8ECA6ED121AFC2C80069034B /* BZSectorProgressView.m in Sources */,
 				8ECA6EC921AFC2730069034B /* main.m in Sources */,
 				8ECA6EBB21AFC2720069034B /* AppDelegate.m in Sources */,
 			);
